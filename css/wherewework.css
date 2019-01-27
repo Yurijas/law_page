@@ -45,6 +45,11 @@ nav ul {
   justify-content: space-around;
 }
 
+nav span {
+  line-height: 31px;
+  color: grey;
+}
+
 li {
   font-size: 13px;
   display: inline;

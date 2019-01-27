@@ -45,6 +45,11 @@ nav ul {
   justify-content: space-around;
 }
 
+nav span {
+  line-height: 31px;
+  color: grey;
+}
+
 li {
   font-size: 13px;
   display: inline;
@@ -148,9 +153,10 @@ figcaption p {
 
 .col-md-9 .row p {
   margin-right: 8%;
+  margin-left: 3%;
 }
 
-.row>.col-md-6>img {
+.row>.col-md-6 img {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
