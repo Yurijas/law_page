@@ -1,0 +1,184 @@
+body {
+  background: url(../image/nza_background.jpg);
+}
+
+div {
+  display: block;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0px auto;
+  margin-bottom: 50px;
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px #505050;
+}
+
+.top {
+  margin-bottom: 0px;
+}
+
+.logo {
+  margin: 40px 56px 30px 70px;
+}
+
+nav {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 35px;
+  margin: 0px 5% 20px 5%;
+  display: inline-block;
+}
+
+nav ul {
+  text-align: center;
+  margin: 2px 2px 2px 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-size: 13px;
+  display: inline;
+  line-height: 31px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+li a:hover {
+  color: darkred;
+  text-decoration: none;
+}
+
+nav>ul>li>a {
+  color: black;
+}
+
+p {
+  font-size: 12px;
+  margin: 0 0 10px;
+}
+
+/*left side bar*/
+/*
+main>.row>.col-md-3 {
+  margin-left: 20px;
+} */
+
+.small_side_bar {
+  background: url(../image/nav_side_sub.jpg);
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  color: white;
+  font-size: 11px;
+}
+
+.small_side_bar>ul {
+  text-align: left;
+  margin: 0px;
+  padding: 2px;
+}
+
+.small-side-bar ul li {
+  padding-left: 0px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+.small_side_bar>ul>li>a {
+  color: white;
+  font-size: 12px;
+}
+
+.small_side_bar>ul>li>a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.small_side_bar h5 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+  font-size: 12px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.small_side_bar img {
+  width: 100%;
+  max-width: 200px;
+}
+
+figcaption h6 {
+  margin: 0px;
+  margin-top: 2px;
+  padding-top: 2px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+figcaption p {
+  margin-bottom: 0px;
+  padding-top: 2px;
+  font-size: 10px;
+}
+
+
+/* main paragragh */
+/* .row {
+  margin-right: -15px;
+  margin-left: -15px;
+} */
+
+.col-md-9 {
+  padding: 0px 15px;
+}
+
+.col-md-9 .row p {
+  margin-right: 8%;
+}
+
+.row>.col-md-6>img {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  font-size: 10px;
+}
+
+footer li a {
+  color: black;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.copyright, .copyright a {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 10px;
+  color: #c0c0c0;
+}
+
+.copyright a:hover {
+  color: darkred;
+  text-decoration: none;
+}

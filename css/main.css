@@ -1,0 +1,142 @@
+body {
+  background: url(../image/nza_background.jpg);
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+div {
+  display: block;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.top {
+  margin-bottom: 0px;
+}
+
+.container {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0px auto;
+  margin-bottom: 50px;
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px #505050;
+}
+
+.top {
+  margin-bottom: 0px;
+}
+
+.logo {
+  margin: 40px 56px 30px 43px;
+}
+
+nav {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 35px;
+  margin: 0px 5% 20px 5%;
+  display: inline-block;
+}
+
+nav ul {
+  text-align: center;
+  margin: 2px 2px 2px 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-size: 13px;
+  display: inline;
+  line-height: 31px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+li a:hover {
+  color: darkred;
+  text-decoration: none;
+}
+
+nav>ul>li>a {
+  color: black;
+}
+
+.main-top {
+  margin-left: 13.5px;
+  margin-right: 13.5px;
+}
+
+h5 {
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+
+.right-side {
+  color: white;
+  background: url(../image/nav_side.jpg);
+  overflow-y: scroll;
+  height: 360px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+div.row.top-margin {
+  margin-top: 25px;
+}
+
+div.row.top-margin>.col-md-8 {
+  margin-left: 13.5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: block;
+}
+
+div.company-info {
+  width: 28%;
+  float: right;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+/* footer */
+footer {
+  text-align: center;
+  font-size: 10px;
+}
+
+footer li a {
+  color: black;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.copyright, .copyright a {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 10px;
+  color: #c0c0c0;
+}
+
+.copyright a:hover {
+  color: darkred;
+  text-decoration: none;
+}
